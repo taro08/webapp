@@ -1,0 +1,18 @@
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>不動産価格予測</title>
+  </head>
+  <body>
+    <form action="predict_price" method="get">
+        <table>
+            <tr><td>最も近い駅からの距離<td><input text name="station_dist" value=0.0>
+            <tr><td>徒歩10分圏内のコンビニエンスストアの数<td><input text name="convini_num" value=0>
+            <tr><td>家庭内の牛乳の消費量<td><input text name="milk_consum" value=0.0>
+            <tr><td>世帯主の年収<td><input text name="income" value=0.0>
+            <tr><td>都市部?(Yes:1 No:0)<td><input text name="city_flag" value=0>
+        </table>
+        <input type="submit">
+    </form>
+  </body>
+</html>
